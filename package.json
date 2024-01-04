@@ -1,0 +1,27 @@
+{
+  "name": "s08-threejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "watchify src/app.js -o public/js/bundle.js",
+    "open": "google-chrome public/index.html",
+    "start": "npm run dev & npm run open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/O-clock-Cheesecake/S08-ThreeJs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-clock-Cheesecake/S08-ThreeJs/issues"
+  },
+  "homepage": "https://github.com/O-clock-Cheesecake/S08-ThreeJs#readme",
+  "dependencies": {
+    "three": "^0.157.0",
+    "watchify": "^4.0.0"
+  }
+}
